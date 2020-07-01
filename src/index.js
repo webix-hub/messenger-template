@@ -16,7 +16,7 @@ webix.ready(() => {
 		cols: [
 			{},
 			{
-				width: 1420,
+				width: 1320,
 				css: "white",
 				type: "clean",
 				cols: [
@@ -32,7 +32,7 @@ webix.ready(() => {
 						cols: [
 							{
 								css: "gray",
-								width: 388,
+								width: 350,
 								rows: [
 									convBlock
 								]
