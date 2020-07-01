@@ -1,0 +1,42 @@
+@import "leftSidebar";
+@import "convBlock";
+@import "chatBlock";
+
+.webix_layout_space, .webix_layout_wide {
+	background-color: #dadbdd;
+}
+
+.white {
+	background-color: #ffffff;
+}
+
+.gray {
+	background-color: #ebedf0;
+}
+
+.dark {
+	background-color: #4A4E58;
+}
+
+.baseLine {
+	align-items: baseline;
+}
+
+.mlAuto {
+	margin-left: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.flexCentered {
+	align-items: center;
+	justify-content: center;
+}
+
+.ellipses {
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,89 @@
+.chatIcon {
+    overflow: hidden;
+    border-radius: 50%;
+    .webix_template {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    img {
+        height: 100%;
+    }
+}
+
+.chatText {
+    .webix_el_box {
+        margin-left: 7px;
+    }
+}
+
+.userList {
+    .webix_scroll_cont {
+        padding-top: 6px;
+        display: flex;
+    }
+
+    .webix_list_item {
+        padding: 0;
+        border: none;
+        margin-left: -11px;
+        &:first-of-type {
+            margin-left: 0;
+        }
+    }
+}
+
+.chatImg {
+    border: 2px solid #FFF;
+    box-sizing: border-box;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    z-index: 10;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+        height: 100%;
+    }
+}
+
+.chatCounter {
+    background-color: #94A1B3;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.commentsList {
+    .webix_list_item {
+        display: flex;
+        max-width: 80%;
+        &.webix_comments_current{
+            margin-left:20%;
+        }
+        &:last-child{
+            margin-bottom:24px;
+        }
+    }
+    .webix_comments_message{
+        margin: 0;
+    }
+
+    .webix_comments_avatar {
+        flex-shrink: 0;
+        margin-right: 15px;
+    }
+
+    .webix_comments_name {
+        margin-left: 0;
+    }
+
+    .comment {
+        flex-grow: 1;
+        background: #F4F5F9;
+        border-radius: 0px 8px 8px 8px;
+        padding: 10px 20px 20px;
+    }
+} 
+

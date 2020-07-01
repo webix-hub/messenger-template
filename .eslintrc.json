@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "webix": true,
+    "scheduler": true,
+    "APPNAME": true,
+    "VERSION": true,
+    "PRODUCTION": true,
+    "BUILD_AS_MODULE": true
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "linebreak-style": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "extends": "./node_modules/eslint-config-xbsoftware/1__double_quotes_and_tabs.js"
+}

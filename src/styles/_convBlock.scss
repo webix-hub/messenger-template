@@ -1,0 +1,87 @@
+.search {
+    input {
+        background-color: transparent;
+    }
+}
+
+.convBg {
+    background-color: #EBEDF0;
+}
+
+
+.convItem {
+    border-color: #DADEE0;
+
+    &.webix_selected {
+       box-shadow: inset 3px 0 #1CA1C1;
+    }
+
+    &:hover {
+        background: #F4F5F9;
+    }
+}
+
+.convOverall {
+    align-items: center;
+    padding: 14px 12px;
+}
+
+.convImg {
+    flex-shrink: 0;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    img {
+        height: 100%;
+    }
+}
+
+.convContent {
+    margin-left: 16px;
+    line-height: 20px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.convName {
+    font-weight: 500;
+    max-width: 220px;
+}
+
+.convSubrow {
+    color: #475466;
+    margin-bottom: 4px;
+    .mdi {
+        color: #94A1B3;
+        margin-right: 4px;
+        line-height: 18px;
+        flex-shrink: 0;
+    }
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.convMessage {
+    max-width: 200px;
+}
+
+.convCounter {
+    background-color: #1CA1C1;
+    border-radius: 50%;
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.convDate {
+    color: #94A1B3;
+    font-size: 12px;
+    line-height: 16px;   
+}
