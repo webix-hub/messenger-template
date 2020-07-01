@@ -3,7 +3,7 @@ Messenger/Chat Template
 
 Check the Messenger web template for the Webix UI library.
 
-[Messenger live demo](https://webix-hub.github.io/messenger-template/dist/es5/index.html).
+[Messenger live demo](https://webix-hub.github.io/messenger-template/dist/es6/index.html).
 
 This JS template allows you to create a web chat or an online messenger with the following features: 
 
