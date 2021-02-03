@@ -28,4 +28,4 @@ npm run build
 ### License terms
 
 The MIT License (MIT)
-Copyright (c) 2020 XBSoftware
+Copyright (c) 2021 XBSoftware
